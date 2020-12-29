@@ -406,6 +406,14 @@ const routeMap = [
           en: 'Auto Complete'
         },
         component: 'bm-auto-complete'
+      },
+      {
+        path: 'address-resolution',
+        name: {
+          zh: '地址解析',
+          en: 'Address Resolution'
+        },
+        component: 'bm-address-resolution'
       }
     ]
   },
