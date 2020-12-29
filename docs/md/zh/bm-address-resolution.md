@@ -73,7 +73,7 @@ Geocoder：逆/地址解析，用于坐标与地址间的相互转换。详情�
 
 <doc-preview>
 <div>
-<baidu-map @ready="MpReady" :center="{lng: lng, lat: lat}" :zoom="15">
+<baidu-map @ready="MpReady" :center="{lng: lng, lat: lat}" version="3" :zoom="15">
 <bm-view class="map"></bm-view>
 <bm-marker v-if="lat && lng" :position="{lng: lng, lat: lat}"></bm-marker>
 </baidu-map>

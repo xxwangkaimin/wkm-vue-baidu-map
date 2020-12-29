@@ -26,6 +26,7 @@
 |pinch-to-zoom|Boolean|true|允许双指缩放|
 |auto-resize|Boolean|true|允许自适应容器尺寸|
 |mapStyle|MapStyle||自定义地图样式主题|
+|version|String/Number|2|百度地图api版本|
 |~~theme~~|Array||自定义主题，是 `mapStyle.styleJson` 属性的别名，可能会在下一个主版本中 **移除** ，不推荐使用|
 
 ## 事件

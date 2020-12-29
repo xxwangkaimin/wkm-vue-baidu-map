@@ -36,7 +36,7 @@ import BmlHeatmap from './extra/Heatmap.vue'
 import BmlCurveLine from './extra/CurveLine.vue'
 
 export default {
-  install (Vue, options) {
+  install(Vue, options) {
     const {ak} = options
     Vue.prototype._BMap = () => ({ak})
 
