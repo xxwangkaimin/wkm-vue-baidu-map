@@ -1,4 +1,4 @@
-# VUE BAIDU MAP
+# WKM VUE BAIDU MAP
 
 <p align="center">
   <img src="https://dafrok.github.io/vue-baidu-map/favicon.png" width="200px">
@@ -25,14 +25,14 @@
 ### 安装
 
 ```bash
-npm i --save vue-baidu-map
+npm i --save wkm-vue-baidu-map
 ```
 
 ### 初始化
 
 ```javascript
 import Vue from 'vue'
-import BaiduMap from 'vue-baidu-map'
+import BaiduMap from 'wkm-vue-baidu-map'
 
 Vue.use(BaiduMap, {
   // ak 是在百度地图开发者平台申请的密钥 详见 http://lbsyun.baidu.com/apiconsole/key */
