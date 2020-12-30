@@ -5,10 +5,7 @@ div
       md-button.menu-button.md-icon-button(@click="$refs.sidenav.toggle()")
         md-icon menu
       span.md-title(v-text="title") VUE BAIDU MAP
-      md-button.md-icon-button
-        router-link.link(:to="`/${otherLang}/index`", @click="changeLang")
-        md-icon(md-iconset="iconfont icon-zhongyingwenqiehuan-xianshizhongyingwen")
-      md-button.md-icon-button(href="https://xxwangkaimin.github.io/#/")
+      md-button.md-icon-button(href="https://github.com/xxwangkaimin/xxwangkaimin.github.io")
         md-icon(md-iconset="iconfont icon-github")
   md-sidenav.md-left.md-fixed.main-nav(ref="sidenav")
     md-toolbar(md-theme="white").logo
