@@ -1,5 +1,5 @@
 language: node_js
-node_js:		
+node_js:
   - "8.12.0"
 addons:
   apt:
@@ -19,8 +19,8 @@ after_success:
   - cp ./docs/favicon.png ./dist/
   - cd dist
   - git init
-  - git config user.name "Dafrok"
-  - git config user.email "o.o@mug.dog"
+  - git config user.name "wangkaimin"
+  - git config user.email "xxwangkaimin@sina.com"
   - git add .
   - git commit -m "Travis build docs"
-  - git push  --force --quiet "https://${GITHUB_TOKEN}@github.com/Dafrok/vue-baidu-map.git" master:gh-pages
+  - git push  --force --quiet "https://${GITHUB_TOKEN}@github.com:xxwangkaimin/wkm-vue-baidu-map.git" master:gh-pages

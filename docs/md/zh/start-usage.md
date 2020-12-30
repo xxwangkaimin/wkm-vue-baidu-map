@@ -8,7 +8,7 @@
 
 ```javascript
 import Vue from 'vue'
-import BaiduMap from 'vue-baidu-map'
+import BaiduMap from 'wkm-vue-baidu-map'
 
 Vue.use(BaiduMap, {
   // ak 是在百度地图开发者平台申请的密钥 详见 http://lbsyun.baidu.com/apiconsole/key */
@@ -43,7 +43,7 @@ Vue.use(BaiduMap, {
 </template>
 
 <script>
-import BaiduMap from 'vue-baidu-map/components/map/Map.vue'
+import BaiduMap from 'wkm-vue-baidu-map/components/map/Map.vue'
 export default {
   components: {
     BaiduMap
@@ -139,6 +139,6 @@ export default {
 ```
 
 <doc-preview>
-  <baidu-map class="map" center="北京">
+  <baidu-map class="map" version="3" center="北京">
   </baidu-map>
 </doc-preview>

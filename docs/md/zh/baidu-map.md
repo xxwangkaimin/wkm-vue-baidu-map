@@ -10,6 +10,7 @@
 |属性名|类型|默认值|描述|
 |------|------|-----|---|
 |ak|String||百度地图开发者平台申请的密钥，仅在局部注册组件时声明。|
+|version|String/Number|2|百度地图api版本|
 |center|Point, String||定位, 可使用如“广州市海珠区”的地区字符串，也可以使用对象如 {lng: 116.404, lat: 39.915} 表示经纬度|
 |zoom|Number||缩放等级|
 |min-zoom|Number||最小缩放级别|
@@ -26,7 +27,6 @@
 |pinch-to-zoom|Boolean|true|允许双指缩放|
 |auto-resize|Boolean|true|允许自适应容器尺寸|
 |mapStyle|MapStyle||自定义地图样式主题|
-|version|String/Number|2|百度地图api版本|
 |~~theme~~|Array||自定义主题，是 `mapStyle.styleJson` 属性的别名，可能会在下一个主版本中 **移除** ，不推荐使用|
 
 ## 事件
@@ -87,7 +87,7 @@
 
 #### 预览
 <doc-preview>
-  <baidu-map class="map" :center="{lng: 116.404, lat: 39.915}" :zoom="15">
+  <baidu-map class="map" version="3" :center="{lng: 116.404, lat: 39.915}" :zoom="15">
   </baidu-map>
 </doc-preview>
 
@@ -104,7 +104,7 @@
 
 #### 预览
 <doc-preview>
-  <baidu-map class="map" :center="{lng: 116.404, lat: 39.915}" :zoom="15" :scroll-wheel-zoom="true">
+  <baidu-map class="map" version="3" :center="{lng: 116.404, lat: 39.915}" :zoom="15" :scroll-wheel-zoom="true">
   </baidu-map>
 </doc-preview>
 
@@ -148,7 +148,7 @@ export default {
 
 #### 预览
 <doc-preview>
-  <baidu-map class="map" :center="{lng: 116.404, lat: 39.915}" :zoom="15" :mapStyle="mapStyle">
+  <baidu-map class="map" version="3" :center="{lng: 116.404, lat: 39.915}" :zoom="15" :mapStyle="mapStyle">
   </baidu-map>
 </doc-preview>
 
@@ -165,7 +165,7 @@ export default {
 
 #### 预览
 <doc-preview>
-  <baidu-map class="map" :center="{lng: 116.404, lat: 39.915}" :zoom="15" mapType="BMAP_SATELLITE_MAP">
+  <baidu-map class="map" version="3" :center="{lng: 116.404, lat: 39.915}" :zoom="15" mapType="BMAP_SATELLITE_MAP">
   </baidu-map>
 </doc-preview>
 
@@ -216,7 +216,7 @@ export default {
 
 #### 预览
 <doc-preview>
-  <baidu-map class="map" :scroll-wheel-zoom="true" :center="center" :zoom="zoom" @moving="syncCenterAndZoom" @moveend="syncCenterAndZoom" @zoomend="syncCenterAndZoom">
+  <baidu-map class="map" version="3" :scroll-wheel-zoom="true" :center="center" :zoom="zoom" @moving="syncCenterAndZoom" @moveend="syncCenterAndZoom" @zoomend="syncCenterAndZoom">
   </baidu-map>
   <md-table>
     <md-table-header>

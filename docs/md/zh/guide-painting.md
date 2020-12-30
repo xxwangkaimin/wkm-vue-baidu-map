@@ -13,6 +13,7 @@
 ```html
 <baidu-map class="map"
   :center="{lng: 116.404, lat: 39.915}"
+  version="3"  
   :zoom="14"
   @mousemove="syncPolyline"
   @click="paintPolyline"
@@ -86,6 +87,7 @@ export default {
 <baidu-map class="map"
   :center="{lng: 116.404, lat: 39.915}"
   :zoom="14"
+  version="3"
   @mousemove="syncPolyline"
   @click="paintPolyline"
   @rightclick="newPolyline">

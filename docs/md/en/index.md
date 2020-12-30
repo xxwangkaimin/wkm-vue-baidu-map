@@ -12,10 +12,10 @@
 
 ## Contributing
 
-[Contributing Guide](https://github.com/Dafrok/vue-baidu-map/blob/master/CONTRIBUTING.md)
+[Contributing Guide](https://github.com/xxwangkaimin/wkm-vue-baidu-map/blob/master/CONTRIBUTING.md)
 
 ## License
 
 [MIT License](https://opensource.org/licenses/MIT)
 
-Copyright (c) 2016-present, Dafrok <o.o@mug.dog>
+Copyright (c) 2016-present, xxwangkaimin <o.o@mug.dog>

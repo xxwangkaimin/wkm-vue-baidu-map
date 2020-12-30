@@ -2,10 +2,10 @@
 section.index
   .content
     img(src='//dafrok.github.io/vue-baidu-map/favicon.png')
-    h1 VUE BAIDU MAP
+    h1 WKM VUE BAIDU MAP
     .links
       router-link(to="/zh/index") 中文
-      router-link(to="/en/index") English
+<!--      router-link(to="/en/index") English-->
 </template>
 
 <style lang="stylus" scoped>

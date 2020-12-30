@@ -3,11 +3,11 @@
 ## NPM
 
 ```bash
-$ npm install vue-baidu-map --save
+$ npm install wkm-vue-baidu-map --save
 ```
 
 ## CDN
 
 ```html
-<script src="https://unpkg.com/vue-baidu-map"></script>
+<script src="https://unpkg.com/wkm-vue-baidu-map"></script>
 ```

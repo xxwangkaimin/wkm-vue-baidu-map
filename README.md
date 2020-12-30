@@ -1,4 +1,4 @@
-# VUE BAIDU MAP
+# WKM VUE BAIDU MAP
 
 <p align="center">
   <img src="https://dafrok.github.io/vue-baidu-map/favicon.png" width="200px">
@@ -13,26 +13,26 @@
 
 ## Languages
 
-- [中文](https://github.com/Dafrok/vue-baidu-map/blob/master/README.zh.md)
-- [English](https://github.com/Dafrok/vue-baidu-map/blob/master/README.md)
+- [中文](https://github.com/xxwangkaimin/wkm-vue-baidu-map/blob/master/README.zh.md)
+- [English](https://github.com/xxwangkaimin/wkm-vue-baidu-map/blob/master/README.md)
 
 ## Documentation
 
-[https://dafrok.github.io/vue-baidu-map](https://dafrok.github.io/vue-baidu-map)
+[https://xxwangkaimin.github.io/#/](https://xxwangkaimin.github.io/#/)
 
 ## Get Start
 
 ### Installation
 
 ```bash
-npm i --save vue-baidu-map
+npm i --save wkm-vue-baidu-map
 ```
 
 ### Initialization
 
 ```javascript
 import Vue from 'vue'
-import BaiduMap from 'vue-baidu-map'
+import BaiduMap from 'wkm-vue-baidu-map'
 
 Vue.use(BaiduMap, {
   /* Visit http://lbsyun.baidu.com/apiconsole/key for details about app key. */
@@ -59,11 +59,11 @@ Vue.use(BaiduMap, {
 
 ## Contributing
 
-[Contributing Guide](https://github.com/Dafrok/vue-baidu-map/blob/master/CONTRIBUTING.md)
+[Contributing Guide](https://github.com/xxwangkaimin/wkm-vue-baidu-map/blob/master/CONTRIBUTING.md)
 
 
 ## License
 
 [MIT License](https://opensource.org/licenses/MIT)
 
-Copyright (c) 2016-present, Dafrok <o.o@mug.dog>
+Copyright (c) 2016-present, xxwangkaimin

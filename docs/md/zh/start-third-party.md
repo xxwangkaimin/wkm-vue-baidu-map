@@ -8,7 +8,7 @@
 
 ```javascript
 import Vue from 'vue'
-import {BmlMarkerClusterer} from 'vue-baidu-map'
+import {BmlMarkerClusterer} from 'wkm-vue-baidu-map'
 
 Vue.component('bml-marker-cluster', BmlMarkerClusterer)
 ```
@@ -16,7 +16,7 @@ Vue.component('bml-marker-cluster', BmlMarkerClusterer)
 ### 局部注册
 
 ```javascript
-import {BmlMarkerClusterer} from 'vue-baidu-map'
+import {BmlMarkerClusterer} from 'wkm-vue-baidu-map'
 export default {
   components: {
     BmlMarkerClusterer

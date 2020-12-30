@@ -1,4 +1,4 @@
-# VUE BAIDU MAP
+# WKM VUE BAIDU MAP
 
 <p align="center"><img src="//dafrok.github.io/vue-baidu-map/favicon.png" width="200px"></p>
 
@@ -12,10 +12,10 @@
 
 ## 贡献
 
-[贡献指南](https://github.com/Dafrok/vue-baidu-map/blob/master/CONTRIBUTING.md)
+[贡献指南](https://github.com/xxwangkaimin/wkm-vue-baidu-map/blob/master/CONTRIBUTING.md)
 
 ## 协议
 
 [MIT 许可证](//opensource.org/licenses/MIT)
 
-版权所有 (c) 2016-至今 Dafrok <o.o@mug.dog>
+版权所有 (c) 2020-至今 xxwangkaimin

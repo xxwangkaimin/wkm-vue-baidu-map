@@ -13,12 +13,12 @@
 
 ## 语言
 
-- [中文](https://github.com/Dafrok/vue-baidu-map/blob/master/README.zh.md)
-- [English](https://github.com/Dafrok/vue-baidu-map/blob/master/README.md)
+- [中文](https://github.com/xxwangkaimin/wkm-vue-baidu-map/blob/master/README.zh.md)
+- [English](https://github.com/xxwangkaimin/wkm-vue-baidu-map/blob/master/README.md)
 
 ## 文档
 
-[https://dafrok.github.io/vue-baidu-map](https://dafrok.github.io/vue-baidu-map)
+[https://xxwangkaimin.github.io/#/](https://xxwangkaimin.github.io/#/)
 
 ## 开始
 
@@ -58,13 +58,13 @@ Vue.use(BaiduMap, {
 
 ## 贡献
 
-[贡献指南](https://github.com/Dafrok/vue-baidu-map/blob/master/CONTRIBUTING.md)
+[贡献指南](https://github.com/xxwangkaimin/wkm-vue-baidu-map/blob/master/CONTRIBUTING.md)
 
 
 ## 协议
 
 [MIT 许可证](https://opensource.org/licenses/MIT)
 
-版权所有 (c) 2016至今, Dafrok <o.o@mug.dog>
+版权所有 (c) 2016至今, xxwangkaimin <o.o@mug.dog>
 
 
